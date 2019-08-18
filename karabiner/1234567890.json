@@ -1,0 +1,33 @@
+{
+    "title": "CAPS LOCK [fn + control]",
+    "rules": [
+      {
+        "description": "CAPS LOCK [fn + control]",
+        "manipulators": [
+            {
+                "from": {
+                    "simultaneous": [
+                        {
+                          "key_code": "fn"
+                        },
+                        {
+                          "key_code": "left_control"
+                        }
+                      ],
+                      "modifiers": {
+                        "optional": [
+                          "any"
+                        ]
+                      }
+                },
+                "to": [
+                    {
+                        "key_code": "caps_lock"
+                    }
+                ],
+                "type": "basic"
+            }
+        ]
+    }
+  ]
+}
